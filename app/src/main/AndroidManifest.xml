@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ag.quizapp">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp">
+        <activity
+            android:name=".Final"
+            android:exported="false" />
+        <activity
+            android:name=".Que10"
+            android:exported="false" />
+        <activity
+            android:name=".Que9"
+            android:exported="false" />
+        <activity
+            android:name=".Que8"
+            android:exported="false" />
+        <activity
+            android:name=".Que7"
+            android:exported="false" />
+        <activity
+            android:name=".Que6"
+            android:exported="false" />
+        <activity
+            android:name=".Que5"
+            android:exported="false" />
+        <activity
+            android:name=".Que4"
+            android:exported="false" />
+        <activity
+            android:name=".Que3"
+            android:exported="false" />
+        <activity
+            android:name=".Que2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
